@@ -144,6 +144,6 @@ public class VarastoTest {
         varasto = new Varasto(2, -2);
         
         // Saldon tulisi olla 0
-        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(7, varasto.getSaldo(), vertailuTarkkuus);
     }
 }
