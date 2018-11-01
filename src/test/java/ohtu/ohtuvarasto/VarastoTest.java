@@ -143,7 +143,7 @@ public class VarastoTest {
     public void varastoConstructor5() {
         varasto = new Varasto(2, -2);
         
-        // Saldon tulisi olla 0
+        // Saldon tulisi olla 0, sillä varastoon yritetään lisätä alkuun negatiivinen määrä
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
 }
