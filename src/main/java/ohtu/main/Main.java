@@ -6,6 +6,19 @@ public class Main {
 
     public static void main(String[] args) {
 
+        if(true){
+            if(true){
+                System.out.println("Sisäkkäiset if-lauseet");
+            }
+        }
+        for(int i = 0; i < 3; i++) {
+            for(int j = 0; j < 3; j++) {
+                System.out.println("Sisäkkäiset for-lauseet");
+            }
+        }
+
+System.out.println("Väärin sisennetty");
+
         Varasto mehua = new Varasto(100.0);
         Varasto olutta = new Varasto(100.0, 20.2);
 
